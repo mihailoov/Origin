@@ -1,0 +1,17 @@
+.footer{
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    padding: 40px 2% 60px 2%;
+}
+
+@media (max-width: 460px) {
+    .footer{
+        padding: 20px 4% 40px 4%;
+    }
+}
+@media (max-width: 3200px) {
+    .footer{
+        padding: 20px 2% 40px 2%;
+    }
+}

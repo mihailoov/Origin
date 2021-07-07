@@ -1,0 +1,34 @@
+.header{
+    width: 96%;
+    min-height: 50px;
+    padding: 15px 2% 15px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.logo-min{
+    width: auto;
+    height: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 460px) {
+    .header{
+        width: 92%;
+        padding: 15px 4% 0px 4%;
+    }
+    .header .logo-min{
+        height: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header{
+        width: 94%;
+        padding: 10px 2% 0px 2%;
+    }
+    .header .logo-min{
+        height: 36px;
+    }
+}

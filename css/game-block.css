@@ -1,0 +1,50 @@
+.game-blocks{
+    width: 96%;
+    height: auto;
+    padding: 20px 2% 0px 2%;
+    align-items: flex-start;
+    color: #fff;
+    column-count: 4;
+    column-gap: 20px;
+}
+.game-blocks .poster-game{
+    width: 100%;
+    height: auto;
+    display: block;  
+    margin-bottom: 20px;
+}
+
+@media (max-width: 860px) {
+    .game-blocks{
+        column-count: 2;
+    }
+    .game-blocks .poster-game{
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 460px) {
+    .game-blocks{
+        width: 92%;
+        padding: 20px 4% 0px 4%;
+        column-count: 2;
+        column-gap: 12px;
+    }
+    .game-blocks .poster-game{
+        padding-top: 30px;
+        margin-bottom: 6px;
+    }
+}
+
+@media (max-width: 320px) {
+    .game-blocks{
+        width: 96%;
+        padding: 20px 2% 0px 2%;
+        column-count: 1;
+        column-gap: 20px;
+    }
+    .game-blocks .poster-game{
+        padding-top: 30px;
+        margin-bottom: 6px;
+    }
+}

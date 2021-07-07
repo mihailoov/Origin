@@ -1,0 +1,13 @@
+.super-main{
+    width: 100%;
+    min-height: 98vh;
+    background: linear-gradient(180deg, #1E262C 0%, rgba(30, 38, 44, 0) 18.75%, rgba(30, 38, 44, 0) 61.98%, #1E262C 86.46%),
+                url(../img/game/battlefield_2042/1.webp) no-repeat center center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}

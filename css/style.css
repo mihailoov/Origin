@@ -1,0 +1,79 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    scrollbar-color: #ffffff #1E262C;     /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: auto;  /* толщина */
+}
+
+::selection {background: #F56C2D; color:#fff;}
+::-moz-selection {background: #F56C2D; color:#fff;}
+::-webkit-selection {background: #F56C2D; color:#fff;}
+
+body{
+    background-color: #1E262C;
+}
+
+.system-icon{
+    width: 24px;
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+.system-icon:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.space-between h2{
+    color: #fff;
+    font-weight: 500;
+    margin-left: 2%;
+}
+.space-between h6{
+    color: #1E262C;
+    font-weight: 300;
+}
+
+.space-between .button-1{
+    margin-right: 2%;
+}
+@media (max-width: 860px) {
+ .space-between{
+        margin-bottom: 20px;
+    }   
+}
+
+@media (max-width: 460px) {
+    .system-icon{
+        width: 22px;
+        padding: 8px;
+    }
+    .space-between{
+        margin-bottom: 12px;
+    }
+    .space-between .button-1{
+        margin-right: 4%;
+    }
+    .space-between h2{
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 320px) {
+    .space-between .button-1{
+        margin-right: 2%;
+    }
+    .space-between h2{
+        margin-left: 2%;
+    }
+}

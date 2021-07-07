@@ -1,0 +1,61 @@
+.poster{
+    width: auto;
+    height: 100%;
+}
+.super-main-game-info{
+    width: 96%;
+    height: 30vh;
+    padding: 0px 2% 0px 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+}
+.super-main-game-info-block{
+    align-items: center;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.super-main-game-info-block h2{
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+.super-main-game-info-block h4{
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 1;
+}
+
+@media (max-width: 460px) {
+    .super-main-game-info{
+        width: 92%;
+        padding: 0px 4% 0px 4%;
+    }
+    .super-main-game-info{
+        align-items: flex-start;
+        
+    }
+    .super-main-game-info-block{
+        margin-left: 12px;
+    }
+    .poster{
+        width: auto;
+        height: 60%;
+    }
+    .super-main-game-info-block h4{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 320px) {
+    .super-main-game-info{
+        width: 94%;
+        padding: 0px 2% 0px 2%;
+    }
+    .super-main-game-info{
+        align-items: flex-start;
+    }
+    .poster{
+        display: none;
+    }
+}

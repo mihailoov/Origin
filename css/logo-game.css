@@ -1,0 +1,39 @@
+.super-main-game-logo{
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.super-main-game-logo img{
+    width: auto;
+    height: 10vh;
+}
+.super-main-game-logo img:hover{
+    -webkit-animation: 0.3s tremor ease-out infinite;  
+    animation: 0.3s tremor ease-out infinite;  
+}
+@keyframes tremor {
+    0%, 25% {
+        left: -2px;
+        -webkit-transform: translateX(-1px);
+        transform: translateX(-1px);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: rotateX(5px);
+        transform: translateX(1px);
+    }
+}
+
+@media (max-width: 640px) {
+    .super-main-game-logo img{
+        height: 8vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .super-main-game-logo img{
+        height: 6vh;
+    }
+}
