@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/system/origin-mini-logo.svg" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/button.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/logo-game.css">
+    <link rel="stylesheet" type="text/css" href="css/game-info.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+    <link rel="stylesheet" type="text/css" href="css/ea-play-pro.css">
+    <link rel="stylesheet" type="text/css" href="css/game-line.css">
+    <link rel="stylesheet" type="text/css" href="css/game-block.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Origin</title>
+</head>
+<body>
+
+    <div class="menu" id="menu">
+        <div class="menu-block">
+            <div class="menu-close"><h2>EA Play</h2><a onclick="closeMenu()"><img src="img/system/menu_close-icon.svg" class="system-icon"></a></div>
+
+            <input type="search" placeholder="Поиск" id="Search">
+
+            <a href="index.html" class="button-menu button-menu-active">Магазин</a>
+            <a href="html/game-catalog.html" class="button-menu">Коллекция игр</a>
+
+            <a class="button-2">Войти</a>
+            <a class="button-3">Зарегистрироваться</a>
+        </div>
+    </div>
+
+    <div class="super-main">
+        <div class="header">
+            <a onclick="viewMenu()"><img src="img/system/menu-icon.svg" class="system-icon"></a>
+            <img src="img/system/origin-logo.svg" class="logo-min">
+            <a onclick="search()"><img src="img/system/market-icon.svg" class="system-icon"></a>
+        </div>
+
+        <div class="super-main-game-logo">
+            <img src="img/game/battlefield_2042/logo.svg">
+        </div>
+
+        <div class="super-main-game-info">
+                <img src="img/game/battlefield_2042/2.jpg" class="poster">
+                <div class="super-main-game-info-block">
+                    <h2>Оформите предзаказ Battlefield 2042 уже сегодня</h2>
+                    <h4>Получите ранний доступ к открытому бета-тестированию, чтобы получить эксклюзивное оружие, амулеты и не только</h4>
+                    <a class="button-1">Предзаказ</a>
+                </div>
+        </div>
+    </div>
+
+    <div class="news">
+        <a href="#">
+            <img src="img/all/ea-collection.jpg">
+            <h4>Сэкономьте <b>75%</b> до 24 июня</h4>
+            <h6>Порадуйте себя на нашей распродаже в знак признательности</h6>
+        </a>
+
+        <a href="#">
+            <img src="img/game/Apex_Legends/1.jpg">
+            <h4>Мы запускаем акции в Apex Legends</h4>
+            <h6>Скидка 30% на дополнительный контент на распродаже в знак признательности игрокам</h6>
+        </a>
+
+        <a href="#">
+            <img src="img/game/battlefield_3/1.jpg">
+            <h4>Готовьтесь... цельтесь... и экономьте</h4>
+            <h6>Сэкономьте до 80% на игры серии Battlefield™ и другие до 24 июня</h6>
+        </a>
+
+        <a href="#">
+            <img src="img/game/battlefield_2042/3.jpg">
+            <h4>Оформите предзаказ Battlefield 2042 уже сегодня</h4>
+            <h6>Приготовьтесь вернуться в тотальную войну</h6>
+        </a>
+    </div>
+
+    <div class="ea-play-pro">
+        <img src="img/game/biomutant/1.jpg">
+        <div class="ea-play-pro-text">
+            <img src="img/system/ea_play_pro-logo.svg">
+            <h2>Спасите заражённый мир в BIOMUTANT®</h2>
+            <h4>Измените свой геном и используйте кунг-фу, чтобы спасти мир</h4>
+            <a class="button-4">Присоеденится</a>
+        </div>
+    </div>
+
+    <div class="game-line">
+        <div class="space-between">
+            <h2>Популярно</h2>
+            <a class="button-1">Больше</a>
+        </div>
+
+        <div class="game-blocks">
+            <div>
+                <img src="img/game/battlefield_2042/2.jpg" class="poster-game">
+                <div class="space-between">
+                    <h4>Battlefield™ 2042</h4>
+                    <img src="img/system/love.svg" class="system-icon">
+                </div>
+                <a class="button-5">3 499 руб</a>
+            </div>
+
+            <div>
+                <img src="img/game/nfl_21/1.jpg" class="poster-game">
+                <div class="space-between">
+                    <h4>Madden NFL 22: Издание MVP</h4>
+                    <img src="img/system/love.svg" class="system-icon">
+                </div>
+                <a class="button-5">4 499 руб</a>
+            </div>
+
+            <div>
+                <img src="img/game/Knockout_City/1.jpg" class="poster-game">
+                <div class="space-between">
+                    <h4>Knockout City™</h4>
+                    <img src="img/system/love.svg" class="system-icon">
+                </div>
+                <a class="button-7">EA Play</a>
+            </div>
+
+            <div>
+                <img src="img/game/Apex_Legends/2.jpg" class="poster-game">
+                <div class="space-between">
+                    <h4>Apex Legends™</h4>
+                    <img src="img/system/love.svg" class="system-icon">
+                </div>
+                <a class="button-6">Бесплатно</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="space-between">
+            <img src="img/system/origin-logo-black.svg" class="logo-min">
+            <img src="img/system/mihailoov-logo.svg" class="logo-min">
+        </div>
+        <div class="space-between">
+            <h6>© 2021 Electronic Arts Inc.</h6>
+            <h6>Design by MIHAILOOV</h6>
+        </div>
+    </div>
+</body>
+</html>
