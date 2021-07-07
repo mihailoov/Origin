@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+a{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+.button-menu{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 14px 15vh 14px 24px;
+}
+.button-menu:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+.button-menu-active{
+    border-color: #F56C2D;
+    border-style: solid;
+    border-width: 0 0 0 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.button-1{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+.button-1:hover{
+    color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.button-2{
+    color: rgb(255, 255, 255);
+    background: #F56C2D;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    margin: 80px 24px 20px 24px;
+}
+.button-2:hover{
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.button-3{
+    color: #F56C2D;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    margin: 0px 24px 40px 24px;
+}
+.button-3:hover{
+    color: rgba(255, 255, 255, 0.5);
+    background:rgba(0, 0, 0, 0.5);
+}
+.button-4{
+    color: #1E262C;
+    border: 2px solid #1E262C;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+.button-4:hover{
+    color: rgba(30, 38, 44, 0.5);
+    border: 2px solid rgba(30, 38, 44, 0.5);
+}
+.button-5{
+    color: rgb(255, 255, 255);
+    background: #F56C2D;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+.button-5:hover{
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+}
+.button-6{
+    color: rgb(40, 165, 97);
+    border: 2px solid rgb(40, 165, 97);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+.button-6:hover{
+    color: rgba(40, 165, 96, 0.5);
+    border: 2px solid rgba(40, 165, 96, 0.5);
+}
+.button-7{
+    color: rgba(255, 71, 71);
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+.button-7:hover{
+    background:rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 460px) {
+    .button-menu{
+        font-size: 20px;
+    }
+    .button-menu-active{
+        border-width: 0 0 0 5px;
+    }
+    .button-1{
+        border-radius: 12px;
+        padding: 12px 22px;
+        font-size: 16px;
+    }
+    .button-2{
+        border-radius: 12px;
+        padding: 12px 22px;
+        font-size: 16px;
+        margin: 80px 12px 12px 12px;
+    }
+    .button-3{
+        border-radius: 12px;
+        padding: 12px 22px;
+        font-size: 16px;
+        margin: 0px 12px 20px 12px;
+    }
+    .button-4{
+        border-radius: 12px;
+        padding: 12px 22px;
+        font-size: 16px;
+    }
+    .button-5{
+        border-radius: 12px;
+        padding: 12px 22px;
+        font-size: 16px;
+    }
+    .button-6{
+        border-radius: 12px;
+        padding: 12px 22px;
+        font-size: 16px;
+    }
+    .button-7{
+        border-radius: 12px;
+        padding: 12px 22px;
+        font-size: 16px;
+    }
+
+}
